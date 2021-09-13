@@ -19,18 +19,13 @@ This tutorial was written using https://regexr.com/.
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-
 
 ### Anchors
 In our example, take a look at the outer characters between the beginning and end /slashes/ ("^" and "$"). This represents the beginning and end of a string. These characters are used regularly in regex. Since an email address is a single string, we have a single start and end. 
@@ -59,9 +54,6 @@ The first data set has an example. ([a-z0-9_.-]+)
 The "." using the above reference means "any character except newline". and it's followed by a "-" to indicate that the period is not a part of the data set.
 
 Looking at the rest of the regex, we have another character class "\d" meaning look for a digit(0-9). 
-
-### Flags  
-
 
 ### Grouping and Capturing
 
